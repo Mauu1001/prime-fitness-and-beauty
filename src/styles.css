@@ -163,14 +163,14 @@
   .btn-primary:hover { transform: translateY(-2px); box-shadow: 0 0 80px -10px oklch(0.72 0.20 145 / 0.7); }
 
   .btn-ghost {
-    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-semibold tracking-wide;
-    border: 1px solid oklch(1 0 0 / 0.25);
-    color: var(--color-foreground);
-    background: oklch(1 0 0 / 0.06);
+    @apply inline-flex items-center justify-center gap-2 rounded-full px-7 py-3.5 text-sm font-bold tracking-wide;
+    border: 1.5px solid oklch(1 0 0 / 0.6);
+    color: oklch(1 0 0);
+    background: oklch(1 0 0 / 0.12);
     backdrop-filter: blur(10px);
     transition: all 0.3s var(--transition-smooth);
   }
-  .btn-ghost:hover { border-color: var(--color-primary); color: var(--color-primary); }
+  .btn-ghost:hover { border-color: var(--color-primary); color: var(--color-primary); background: oklch(1 0 0 / 0.18); }
 
   .section-pad { @apply py-20 md:py-28; }
 
