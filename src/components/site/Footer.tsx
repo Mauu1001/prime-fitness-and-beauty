@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-3">
               <div className="grid h-12 w-12 place-items-center rounded-xl bg-white p-1.5">
-                <img src={logo.jpg} alt="Prime Fitness & Beauty" className="h-full w-full object-contain" />
+                <img src={logoAsset.url} alt="Prime Fitness & Beauty" className="h-full w-full object-contain" />
               </div>
               <div className="leading-tight">
                 <div className="font-display text-base font-extrabold tracking-[0.18em]">PRIME</div>
