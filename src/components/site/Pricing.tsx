@@ -40,7 +40,7 @@ export default function Pricing() {
             Alege pachetul <span className="text-gradient">potrivit</span>
           </h2>
           <p className="mt-5 text-lg text-muted-foreground">
-            Fără contracte ascunse. Anulezi oricând. Toate prețurile sunt în RON / lună.
+            Fără contracte ascunse. Anulezi oricând. Toate prețurile sunt în RON.
           </p>
         </div>
 
@@ -91,7 +91,6 @@ function PlanCard({
         <h3 className="mt-2 font-display text-3xl font-black">{name}</h3>
         <div className="mt-6 flex items-baseline gap-1">
           <span className={`font-display text-6xl font-black ${featured ? "text-primary-glow" : ""}`}>{price}</span>
-          <span className="text-sm opacity-70">RON / lună</span>
         </div>
 
         <ul className="mt-8 space-y-3 text-sm">
