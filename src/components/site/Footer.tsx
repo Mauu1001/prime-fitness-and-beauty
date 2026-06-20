@@ -1,4 +1,4 @@
-import logoAsset from "@/assets/prime-logo.jpg";
+import logoAsset from "@/assets/logo.jpg";
 
 export default function Footer() {
   return (
