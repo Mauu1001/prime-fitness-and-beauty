@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import logoAsset from "@/assets/prime-logo.png";
+import logoAsset from "@/assets/prime-logo.jpg";
 
 const links = [
   { href: "#despre", label: "Despre" },
