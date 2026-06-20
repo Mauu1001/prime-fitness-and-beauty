@@ -20,7 +20,8 @@ const plans = [
     name: "Premium",
     tagline: "Maxim rezultat",
     price: "550",
-    features: ["Acces complet la sală", "8 ședințe Personal Trainer / lună", "Consultanță dedicată", "Plan nutriție personalizat", "Sesiuni Beauty & Wellness"],
+    period: "RON / 3 luni",
+    features: ["Acces complet la sală", "Personal Trainer", "Plan de antrenament personalizat"],
     cta: "Alege VIP",
   },
 ];
