@@ -35,7 +35,7 @@ export default function Navbar() {
         >
           <a href="#top" className="flex items-center gap-3">
             <div className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-white/95 p-1.5">
-              <img src={logoAsset.url} alt="Prime Fitness & Beauty" className="h-full w-full object-contain" />
+              <img src={logo.jpg} alt="Prime Fitness & Beauty" className="h-full w-full object-contain" />
             </div>
             <div className="hidden sm:block leading-tight">
               <div className="font-display text-sm font-extrabold tracking-[0.2em] text-white">PRIME</div>
