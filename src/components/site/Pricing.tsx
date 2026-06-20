@@ -19,7 +19,7 @@ const plans = [
   },
   {
     name: "Premium",
-    tagline: "Maxim rezultat",
+    tagline: "Experiență completă",
     price: "550",
     features: ["Abonament pe 3 luni", "Acces sală în program standard", "Vestiare moderne", "Acces zona cardio"],
     cta: "Alege Premium",
