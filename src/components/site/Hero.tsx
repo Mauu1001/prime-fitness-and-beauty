@@ -40,7 +40,7 @@ export default function Hero() {
       {/* Content */}
       <div className="relative z-10 container-prime flex min-h-screen flex-col justify-center pt-32 pb-20">
         <div className="max-w-3xl">
-          
+        <div className="mb-6 inline-flex items-center gap-2 rounded-full glass-dark px-4 py-2 text-xs uppercase tracking-[0.25em]"> 
             <span className="h-1.5 w-1.5 rounded-full bg-primary-glow animate-pulse" />
             Borca, Neamț • Sală Premium
           </div>
