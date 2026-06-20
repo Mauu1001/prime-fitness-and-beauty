@@ -15,7 +15,7 @@ const plans = [
     price: "500",
     period: "RON / lună",
     features: ["Acces complet la sală", "Personal Trainer", "Plan de antrenament personalizat"],
-    cta: "Alege Premium",
+    cta: "Alege VIP",
     featured: true,
   },
   {
@@ -24,7 +24,7 @@ const plans = [
     price: "550",
     period: "RON / 3 luni",
     features: ["Acces sală în program standard", "Vestiare moderne", "Acces zona cardio"],
-    cta: "Alege VIP",
+    cta: "Alege Premium",
   },
 ];
 
