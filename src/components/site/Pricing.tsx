@@ -5,7 +5,6 @@ const plans = [
     name: "Basic",
     tagline: "Cel mai ales",
     price: "250",
-    period: "RON / lună",
     features: ["Acces sală în program standard", "Vestiare moderne", "Acces zona cardio"],
     cta: "Alege Basic",
   },
@@ -13,7 +12,6 @@ const plans = [
     name: "VIP",
     tagline: "Maxim rezultat",
     price: "500",
-    period: "RON / lună",
     features: ["Acces complet la sală", "Personal Trainer", "Plan de antrenament personalizat"],
     cta: "Alege Premium",
     featured: true,
@@ -22,7 +20,6 @@ const plans = [
     name: "Premium",
     tagline: "Maxim rezultat",
     price: "550",
-    period: "RON / 3 luni",
     features: ["Acces complet la sală", "8 ședințe Personal Trainer / lună", "Consultanță dedicată", "Plan nutriție personalizat", "Sesiuni Beauty & Wellness"],
     cta: "Alege VIP",
   },
@@ -59,9 +56,9 @@ export default function Pricing() {
 }
 
 function PlanCard({
-  name, tagline, price, period, features, cta, featured, delay,
+  name, tagline, price, features, cta, featured, delay,
 }: {
-  name: string; tagline: string; price: string; period: string; features: string[]; cta: string; featured?: boolean; delay: number;
+  name: string; tagline: string; price: string; features: string[]; cta: string; featured?: boolean; delay: number;
 }) {
   const ref = useReveal<HTMLDivElement>();
   return (
@@ -91,7 +88,7 @@ function PlanCard({
         <h3 className="mt-2 font-display text-3xl font-black">{name}</h3>
         <div className="mt-6 flex items-baseline gap-1">
           <span className={`font-display text-6xl font-black ${featured ? "text-primary-glow" : ""}`}>{price}</span>
-          <span className="text-sm opacity-70">{period}</span>
+          <span className="text-sm opacity-70">RON / lună</span>
         </div>
 
         <ul className="mt-8 space-y-3 text-sm">
@@ -103,7 +100,7 @@ function PlanCard({
           ))}
         </ul>
 
-        
+        <a
           href="#contact"
           className={`mt-10 inline-flex w-full items-center justify-center gap-2 rounded-full px-6 py-4 text-sm font-semibold transition-all ${
             featured
